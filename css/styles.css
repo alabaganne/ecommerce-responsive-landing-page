@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ? Custom */
+.font-weight-medium,
+.nav-link,
+.orders-count {
+  font-weight: 600;
+}
+.display-5 {
+  font-size: 2.75rem;
+}
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.175);
+}
+.circle {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: gray;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-lg {
+  width: 40px;
+  height: 40px;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+img {
+  max-width: 100%;
+}
+.slick-list {
+  box-sizing: initial;
+  padding: 15px;
+}
+/* * Background colors */
+.bg-tomato {
+  background-color: tomato !important;
+}
+.bg-pink,
+.btn-pink,
+#testimonials-carousel .carousel-indicators .active {
+  background-color: #ff4657 !important;
+}
+.bg-blue {
+  background-color: #45ebe9 !important;
+}
+button.bg-tomato:hover {
+  background-color: rgb(255, 77, 45) !important;
+}
+button.bg-pink:hover,
+.btn-pink:hover {
+  background-color: #e9192e !important;
+}
+#testimonials-carousel .carousel-indicators button:nth-child(2).active,
+.bg-green {
+  background-color: #4fdb78 !important;
+}
+.bg-dark {
+  background-color: #242424 !important;
+}
+/* * end {Background colors} */
+/* ? Text colors */
+a.carousel-control-prev,
+a.carousel-control-next {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+.text-black,
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: rgba(0, 0, 0, 0.9) !important;
+}
+.text-pink,
+nav .active a {
+  color: #ff4657 !important;
+  font-weight: 700;
+}
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75);
+}
+a.text-white-75:hover,
+footer a,
+.btn-pink,
+header,
+.orders-count {
+  color: white !important;
+}
+.text-blue {
+  color: #45ebe9 !important;
+}
+.text-green {
+  color: #4fdb78;
+}
+/* ? end {Text colors} */
+/* Buttons */
+.btn-pink {
+  border-color: transparent !important;
+}
+/* end {Buttons} */
+/* end {Custom colors} */
+.letter-spacing-6 {
+  letter-spacing: 8px;
+}
+.border-width-lg {
+  border-width: 2px !important;
+}
+.min-width-155px {
+  min-width: 155px;
+}
+/* ? Overriding Bootstrap values */
+/* .shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.125) !important;
+} */
+/* ! Navigation bar section */
+.navbar-brand {
+  font-size: 2.5rem;
+  line-height: 0;
+}
+nav input,
+nav button {
+  background-color: transparent;
+  border: none;
+}
+input,
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+:focus::placeholder {
+  color: transparent;
+}
+.orders-container {
+  position: relative;
+}
+.orders-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 8pt;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+}
+/* ! Header section */
+header {
+  min-height: 100vh;
+  background-image: url("../ref/exports/Layer 1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header h1,
+header h2,
+header button {
+  font-family: "Bebas Neue";
+}
+header .display-1,
+.line-height-75 {
+  line-height: 0.8;
+}
+.line-height-90 {
+  line-height: 0.9;
+}
+/* ! Next Arrival section */
+.shopping-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.125rem 1.25rem rgba(0, 0, 0, 0.175);
+}
+.shopping-card button.btn-add-to-cart {
+  transform: translateY(25%);
+  opacity: 0;
+}
+.shopping-card:hover button.btn-add-to-cart {
+  transform: translateY(0);
+  opacity: 1;
+}
+.carousel-indicators button {
+  opacity: 0.4 !important;
+}
+.carousel-indicators .active {
+  opacity: 1 !important;
+}
+/* ! Show Off Section */
+#show-off .border,
+.prev-arrow,
+.next-arrow,
+a {
+  cursor: pointer;
+}
+#show-off .border:hover {
+  border-color: gray !important;
+}
+#show-off .carousel-indicators .active .border {
+  border-color: black !important;
+}
+.rounded-bottom-left {
+  border-bottom-right-radius: 0.25rem;
+}
+#show-off .carousel-indicators {
+  position: unset;
+}
+.carousel-indicators {
+  margin-left: 0;
+  margin-right: 0;
+  top: unset;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  width: auto;
+}
+/* ! News */
+.news-date {
+  min-width: 85px;
+  text-align: center;
+  margin-left: 0.25rem;
+}
+/* ! Footer */
+ul {
+  list-style: none;
+  padding: 0;
+}
+footer a,
+footer .btn-pink {
+  transition: 0s !important;
+}
+/* ? Transition delay */
+::placeholder,
+button,
+a,
+.shopping-card,
+.shopping-card button,
+.carousel-control-prev,
+.carousel-control-next,
+#show-off .border {
+  transition: 0.35s;
+}
+/* ? Custom Responsive */
+@media (max-width: 768px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25) 0 100%),
+      url("../ref/exports/Layer\ 1.png");
+  }
+}
