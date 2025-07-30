@@ -62,15 +62,6 @@ During my first internship as a web developer, this project taught me:
 - Best practices for writing clean, maintainable code
 - Collaboration and version control in a professional setting
 
-## 🔍 SEO & Performance
-
-This landing page is optimized for:
-
-- Fast loading times with optimized assets
-- SEO-friendly semantic HTML structure
-- Mobile-first responsive design for better search rankings
-- Clean, accessible code for improved user experience
-
 ## 📈 Future Enhancements
 
 - Add shopping cart functionality
